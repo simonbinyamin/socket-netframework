@@ -15,6 +15,7 @@ namespace socketNetFramework.Controllers
 
     public class HomeController : Controller
     {
+        //test
         public List<string> Index()
         {
 

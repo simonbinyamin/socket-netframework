@@ -9,7 +9,7 @@ namespace socketNetFramework.Controllers
 {
     public class DefaultController : ApiController
     {
-        // GET: api/Default
+        // GET: api/Default2
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
