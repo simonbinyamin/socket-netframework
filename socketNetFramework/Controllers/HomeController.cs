@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 
 namespace socketNetFramework.Controllers
@@ -13,6 +14,8 @@ namespace socketNetFramework.Controllers
 
     }
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [RoutePrefix("")]
     public class HomeController : Controller
     {
         //test
